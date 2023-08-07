@@ -1,9 +1,10 @@
-package com.example.pracnetwork1
+package com.example.pracnetwork1.presentation.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.view.LayoutInflater
+import com.example.pracnetwork1.RetrofitClient
+import com.example.pracnetwork1.WeatherInterface
 import com.example.pracnetwork1.databinding.ActivityMainBinding
 import com.example.pracnetwork1.models.WeatherResponse
 import retrofit2.Call
@@ -52,4 +53,6 @@ class MainActivity : AppCompatActivity() {
             }
         })
     }
+
+
 }
